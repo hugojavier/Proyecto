@@ -4518,7 +4518,7 @@ html.boxed body {
 @media (min-width: 768px) {
 	.decor-text {
 		position: absolute;
-		font-size: 120px;
+		font-size: 80px;
 	}
 }
 
