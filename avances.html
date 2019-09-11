@@ -86,6 +86,7 @@
         <div class="container">
            <h3 class="text-capitalize devider-left wow fadeInLeft" data-wow-delay=".2s"><span class="text-primary">Descripción del problema</span></h3>
            <p class="box-default-description">De la rehabilitación cardíaca una parte del tratamiento consiste en el desarrollo de ciertos ejercicios en los cuales el médico hace el monitoreo de variables como frecuencia cardiaca, presión y saturación de oxígeno valiéndose de máquinas ubicadas en los ambientes (2 bicicletas, 2 corredoras). Sin embargo debido a problemas de superpoblación, dichos pacientes no reciben el tratamiento completo de rehabilitación sino que son dados de alta una vez que alcanzan cierto grado de recuperación. Una vez dado de alta, se espera que el paciente continúe realizando los ejercicios indicados teniendo en cuenta de no sobrepasar los límites de frecuencia cardiaca establecidos por el doctor. El problema es que los pacientes muchas veces no siguen dicho tratamiento por miedo a no tener un control sobre las variables que sí se contabilizan en las máquinas del hospital. Cada paciente recibe parámetros de ejercicios diferentes dependiendo de sus características físicas (edad, peso, sexo) y la enfermedad presentada. Además, el doctor no tiene manera de saber si el paciente está llevando correctamente su tratamiento, respetando los rangos de frecuencia cardiaca preestablecidos.</p>
+           <p class="box-default-description">La rehabilitación cardiovascular comprende varias fases: la primera, en la cual se realizan intervenciones hospitalarias, la segunda, en la que se lleva a cabo la rehabilitación, que consiste en el desarrollo de ciertos ejercicios para fortalecer el sistema cardiovascular, y la tercera, también llamada la fase de mantenimiento, en la cual el objetivo es continuar con el plan de ejercicios para mantener la capacidad funcional (Sociedad Española de Cardiología, 2009). La rehabilitación se lleva a cabo en el hospital con el uso de bicicletas y corredoras que monitorean variables como frecuencia cardiaca, presión y saturación de oxígeno y avisan cuando estas se salen del rango seguro. Sin embargo debido a problemas de superpoblación, dichos pacientes usualmente son dados de alta una vez que alcanzan cierto grado de recuperación, y no reciben este monitoreo durante la fase de mantenimiento. El problema es que muchos de los pacientes no siguen con el plan de ejercicios por su propia cuenta por miedo, al no tener un control sobre estas variables que los ayude a no excederse del esfuerzo que deben hacer. Además, los doctores pierden la capacidad de hacerles el seguimiento a sus pacientes y asegurarse de que estén cumpliendo con el plan de ejercicios de forma segura.</p>
         </div>
       </section>
       <section class="section section-lg bg-default">
@@ -135,7 +136,18 @@
              <center>
                <a href="https://articulo.mercadolibre.com.pe/MPE-437398780-monitor-de-frecuencia-cardiaca-modelo-touch-hr-310la-_JM?quantity=1#position=2&type=item&tracking_id=706368f4-4ac0-4d73-8700-eb4c55c9e796"><img src="images/arte1.png"/></a>
              </center>
-                  
+           <p class="box-default-description"><b>3. PULSIOXÍMETRO CON ARDUINO: </b></p>
+             <p class="box-default-description"> El pulsímetro calcula la saturación de oxígeno y el latido  cardiaco  (pulso)  a  través  del  dedo  del paciente.  El  pulsímetro  realiza  la  medición  no invasiva  del  oxígeno  transportado  por  la hemoglobina en el interior de los vasos sanguíneos. Detecta los bombeos de sangre como cambios de más o menos absorción.    1. Definición  El pulsímetro calcula la saturación de oxígeno y el latido  cardiaco  (pulso)  a  través  del  dedo  del paciente.  El  pulsímetro  realiza  la  medición  no invasiva  del  oxígeno  transportado  por  la hemoglobina en el interior de los vasos sanguíneos. Detecta los bombeos de sangre como cambios de más o menos absorción.   La hemoglobina (HB) es una proteína globular, que  está  presente en altas concentraciones en lo glóbulos rojos y se encarga del transporte de O2 del aparato respiratorio hacia los tejidos periféricos; y del transporte de CO2 y protones (H+) de los  tejidos periféricos hasta los pulmones  para  ser  excretados.  Los  valores normales  en sangre  son de  13 –  18  g/  dl en  el hombre y 12 – 16 g/dl en la mujer.   El pulsímetro se utiliza en el hospital, la clínica, en domicilio, en la actividad deportiva, en cualquier lugar donde sea necesario recurrir a este tipo de diagnóstico.<a data-custom-scroll-to="references">(Calderón,2016)</a></p>
+             <p class="box-default-description"> Se cuentan con sensores como el MAX30100 disponible para plataforma Arduino y de menos complejidad en cuanto a circuitos y precio accesible.</p>
+            <center>
+               <a href="https://naylampmechatronics.com/biomedico/328-pulsioximetro-max30100.html"><img src="images/max30100.jpg"/></a>
+             </center>
+        </div>
+      </section>
+      <section class="section section-lg bg-default">
+        <div class="container">
+           <h3 class="text-capitalize devider-left wow fadeInLeft" data-wow-delay=".2s"><span class="text-primary">Definición de la problemática</span></h3>
+           <p class="box-default-description">Debido a la sobrepoblación en el Servicio De Rehabilitación y Medicina Física del Hospital 2 de mayo, los pacientes de rehabilitación cardiaca no cuentan con la opción de recibir un monitoreo al hacer ejercicio durante la fase de mantenimiento de la rehabilitación. A causa de esto, muchos pacientes no siguen con el plan de ejercicios por miedo a exigirse demasiado y reincidir en un evento cardiaco. De esta forma, los pacientes cardiacos pierden la oportunidad de seguir un plan de rehabilitación que es muy beneficioso para su calidad de vida y que disminuye su mortalidad y morbilidad..</p>
         </div>
       </section>
       <section class="section section-lg bg-default">
@@ -170,7 +182,51 @@
         <div class="container">
            <h3 class="text-capitalize devider-left wow fadeInLeft" data-wow-delay=".2s"><span class="text-primary">Conceptos de solución</span></h3>
            
-           <p class="box-default-description">...<a data-custom-scroll-to="references"></a></p> 
+          <p class="box-default-description"><b>Concepto 1</b></p>
+          <p class="box-default-description"> El prototipo será usado en la muñeca del paciente, estará equipado con un reloj con sensor de frecuencia conectado a un sistema de alarma bajo valores establecido (no adaptable). Se le adicionará un módulo con un sensor de saturación de oxígeno. Ambas lecturas se mostrarán en la pantalla del reloj.</p>
+          <center>
+            <img src="images/dconcepto1.PNG"/>
+            <p>Diagrama del prototipo</p>
+            
+            <img src="images/concepto1.jpg"/>
+            <p>Imagen referencial</p>
+          </center>
+          <p class="box-default-description"> Desventajas: </p>
+          <ul>
+              <li><p>-No habría conectividad con plataformas para transmitir la información</p>
+              <li><p>-La señal obtenida es analógica por lo que trabajar con esta sería complicado y convertirla a digital podría conllevar errores.</p></li>
+              <li><p>-El módulo para el sensor de saturación de oxígeno podría no verse estéticamente correcto.</p></li>
+                         
+           </ul>
+           <p class="box-default-description"><b>Concepto 2</b></p>
+          <p class="box-default-description">Este prototipo contará con un sensor de frecuencia cardíaca situado a nivel de la muñeca del paciente. Se agregará una pantalla LED para mejor visualización de datos. Se adicionará una extensión para el pulsioxímetro. Al ser valores digitales se podría utilizar un microcontrolador con módulos extras para el procesamiento de la información. Necesitará una fuente considerable de energía para garantizar su funcionamiento.</p>
+          <center>
+            <img src="images/dconcepto2.PNG"/>
+            <p>Diagrama del prototipo</p>            
+            
+          </center>
+          <p class="box-default-description"> Desventajas: </p>
+          <ul>
+              <li><p>-El tamaño del prototipo podría incomodar la rutina del paciente. Poca ergonomía.</p>
+              <li><p>-La batería necesaria para solventar el gasto energético podría ser muy grande y pesada. En caso de usar baterías pequeñas, se requeriría una carga constante, impidiendo una rutina larga de rehabilitación.</p></li>
+                         
+           </ul>
+          <p class="box-default-description"><b>Concepto 3</b></p>
+          <p class="box-default-description">En este prototipo se considera la idea de un guante equipado con un pulsioxímetro (sensor integrado de pulso cardíaco y saturación de oxígeno) con señal digital. Se añade un sistema de alarma con parámetros programables según los valores recomendados para cada paciente. Aplicación móvil para el almacenamiento y procesamiento (gráficas) de los datos obtenidos vía inalámbrica (SMS, Wifi) de un pequeño microcontrolador incorporado en el guante. </p>
+          <center>
+            <img src="images/dconcepto3.PNG"/>
+            <p>Diagrama del prototipo</p>
+            
+            
+            <img src="images/concepto3.jpg"/>
+            <p>Imagen referencial</p>
+            
+          </center>
+          <p class="box-default-description"> Desventajas: </p>
+          <ul>
+              <li><p>-Podría interferir con los ejercicios en las máquinas (sostenerse, utilizar objetos).</p>              
+              <li><p>-Necesidad de equipo móvil con compatibilidad con el aplicativo.</p>           
+           </ul>
         </div>
       </section>
       <section class="section section-lg bg-default" id="references">
