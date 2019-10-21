@@ -65,6 +65,11 @@ dl {
 	margin: 0;
 }
 
+.submenu li a{
+	display: block;	
+}
+
+
 dt,
 dd {
 	line-height: inherit;
