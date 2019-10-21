@@ -6517,6 +6517,22 @@ html.tablet .ui-to-top {
   	text-transform: capitalize;
 }
 
+.despegable{
+	position: absolute;
+	backgroud: #333333;
+}
+
+.despegable li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	display: none;
+}
+
+.rd-navbar-nav li:hover .submenu{	
+	display: block;	
+}
+
 .rd-navbar-fixed .rd-nav-item {
 	text-align: left;
 }
