@@ -6505,8 +6505,8 @@ html.tablet .ui-to-top {
 	transform: translateX(0);
 }
 
-.rd-navbar-fixed .rd-navbar-nav {
-	display: block;
+.rd-navbar-fixed .rd-navbar-nav > li{
+	display: inline-block;
 	margin: 15px 0;
 	height: auto;
 	text-align: left;
