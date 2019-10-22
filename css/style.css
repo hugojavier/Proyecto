@@ -67,7 +67,7 @@ ul .desplegable {
 	display: none;
 }
 
-ul .rd-navbar-nav li:hover .submenu {	
+ul .rd-navbar-nav li:hover .desplegable {	
 	display: block;	
 }
 
