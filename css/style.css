@@ -61,7 +61,7 @@ ol li {
 	list-style: none;
 }
 
-ul .despegable {
+ul .desplegable {
 	position: absolute;
 	backgroud: #333333;
 	display: none;
