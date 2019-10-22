@@ -61,6 +61,17 @@ ol li {
 	list-style: none;
 }
 
+ul .despegable {
+	position: absolute;
+	backgroud: #333333;
+	display: none;
+}
+
+ul .rd-navbar-nav li:hover .submenu {	
+	display: block;	
+}
+
+
 dl {
 	margin: 0;
 }
@@ -6507,16 +6518,6 @@ html.tablet .ui-to-top {
 	margin: 15px 0;
 	height: auto;
 	text-align: left;
-}
-
-ul .despegable {
-	position: absolute;
-	backgroud: #333333;
-	display: none;
-}
-
-ul .rd-navbar-nav li:hover .submenu {	
-	display: block;	
 }
 
 .rd-navbar-fixed .rd-nav-item {
