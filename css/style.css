@@ -61,10 +61,17 @@ ol li {
 	list-style: none;
 }
 
-ul .desplegable {
+ul.desplegable {
 	position: absolute;
-	backgroud: #333333;
-	display: none;
+	top: 60px;
+    	left: 0;
+	background: #fff;
+   	padding: 10px 0;
+   	width: 240px;
+   	box-shadow: none;
+   	display: none;
+   	z-index: 999;
+   	border: 1px solid #000;
 }
 
 ul .desplegable li a{
@@ -72,7 +79,8 @@ ul .desplegable li a{
 	padding: 15px;
 	color: #fff;	
 }
-ul .rd-navbar-nav li:hover .desplegable{	
+
+.rd-navbar-nav > li:hover > ul.desplegable{	
 	display: block;	
 }
 
