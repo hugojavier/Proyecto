@@ -72,7 +72,7 @@ ul.desplegable {
 ul .desplegable li a{
 	display: block;
 	padding: 15px;
-	color: #fff;	
+	color: #000;	
 }
 
 .rd-navbar-nav > li:hover > ul.desplegable{	
